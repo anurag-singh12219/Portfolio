@@ -218,7 +218,7 @@ a {
 .hero-section {
   min-height: 100svh;
   padding-top: 6.25rem;
-  padding-bottom: 8rem;
+  padding-bottom: 3rem;
   position: relative;
 }
 
@@ -283,10 +283,11 @@ a {
 }
 
 .hero-scroll {
-  position: absolute;
-  left: 50%;
-  bottom: 1.5rem;
-  transform: translateX(-50%);
+  position: relative;
+  margin-top: 2rem;
+  left: auto;
+  bottom: auto;
+  transform: none;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -369,7 +370,7 @@ a {
 }
 
 #experience.section-block {
-  padding-top: 4.25rem;
+  padding-top: 2rem;
 }
 
 #experience .section-heading p {
