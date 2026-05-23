@@ -21,6 +21,9 @@
 
 html {
   scroll-behavior: smooth;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: clip;
 }
 
 body {
@@ -29,7 +32,18 @@ body {
   background: var(--bg-main);
   color: var(--text-main);
   line-height: 1.6;
+  width: 100%;
+  max-width: 100%;
   overflow-x: hidden;
+}
+
+header,
+main,
+footer,
+section,
+.container,
+.container-sm {
+  max-width: 100%;
 }
 
 img,
@@ -223,6 +237,9 @@ a {
   text-transform: uppercase;
   letter-spacing: 0.12em;
   font-family: "JetBrains Mono", monospace;
+  max-width: 100%;
+  white-space: normal;
+  overflow-wrap: anywhere;
 }
 
 .hero-name {
@@ -241,12 +258,14 @@ a {
   font-size: clamp(1.08rem, 2.8vw, 2rem);
   font-weight: 300;
   color: #cbd5e1;
+  overflow-wrap: anywhere;
 }
 
 .hero-summary {
   max-width: 56rem;
   color: var(--text-soft);
   font-size: clamp(0.95rem, 2.3vw, 1.08rem);
+  overflow-wrap: anywhere;
 }
 
 .btn-emerald {
@@ -789,6 +808,12 @@ a {
 }
 
 @media (max-width: 575.98px) {
+  .row {
+    --bs-gutter-x: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   .container,
   .container-sm {
     padding-left: 1rem;
@@ -896,6 +921,10 @@ a {
 }
 
 @media (max-width: 399.98px) {
+  .row {
+    --bs-gutter-x: 0.85rem;
+  }
+
   .container,
   .container-sm {
     padding-left: 0.85rem;
