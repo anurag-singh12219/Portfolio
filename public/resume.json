@@ -1,0 +1,161 @@
+{
+  "basics": {
+    "name": "Anurag Singh",
+    "title": "B.Tech CSE (AI & ML) Student | Aspiring Full Stack & AI/ML Developer",
+    "summary": "B.Tech CSE (AI & ML) student (Batch 2027) with strong foundations in programming, data structures, and problem solving. Hands-on experience in building real-world applications using modern software development practices and AI/ML technologies. Seeking internship or entry-level opportunities to learn, contribute, and grow in a professional engineering environment.",
+    "location": "Greater Noida, India - 201310",
+    "email": "anuragsingh12219@gmail.com",
+    "phone": "+91 80095 44920",
+    "links": [
+      {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/in/anurag-singh-b78164333"
+      }
+    ]
+  },
+  "experience": [
+    {
+      "company": "Academic & Personal Projects",
+      "role": "AI/ML Project Developer",
+      "dates": "September 2025 - December 2025",
+      "location": "Greater Noida, India",
+      "bullets": [
+        "Developed an AI-Powered Mental Health Companion using Streamlit to create an interactive and accessible web application.",
+        "Implemented a multi-modal machine learning system using TensorFlow and DeepFace to analyze facial, voice, and text inputs for emotional state understanding.",
+        "Built real-time processing workflows to simulate intelligent behavioral insights and improve user interaction.",
+        "Focused on integrating AI models with a functional frontend to understand practical deployment of machine learning systems."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "AI-Powered Mental Health Companion",
+      "stack": "Full Stack & AI, Streamlit, TensorFlow, DeepFace",
+      "dates": "Sep 2025-Dec 2025",
+      "bullets": [
+        "UI & Accessibility: Developed a highly responsive web application using Streamlit, featuring a high-contrast, intuitive interface designed for accessibility across diverse user groups.",
+        "Complex Integration: Built a multi-modal fusion engine using TensorFlow and DeepFace to simultaneously analyze Face, Voice, and Text inputs for real-time emotional state assessment.",
+        "Safety & Logic: Engineered robust crisis detection algorithms to identify distress signals with 95% accuracy, automatically suggesting emergency resources to prioritize user safety."
+      ],
+      "links": []
+    },
+    {
+      "title": "Deep Learning Based Animal Detection on Railway Track",
+      "stack": "Python & Computer Vision, YOLOv8, OpenCV, Tkinter, Pushover API",
+      "dates": "Sep 2024-Jan 2025",
+      "bullets": [
+        "Real-Time Detection: Developed an automated monitoring system using YOLOv8 and OpenCV to detect animals on railway tracks, reducing potential accidents.",
+        "System Architecture: Designed a user-friendly GUI using Tkinter for video analysis and integrated the Pushover API to send instant alerts to authorities upon detection."
+      ],
+      "links": []
+    }
+  ],
+  "skills": [
+    {
+      "category": "Web Development (Full Stack)",
+      "items": [
+        "HTML5",
+        "CSS3",
+        "JavaScript (ES6+)",
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MERN Stack",
+        "Rest APIs",
+        "Streamlit"
+      ]
+    },
+    {
+      "category": "Programming Languages",
+      "items": [
+        "Python",
+        "C++",
+        "Java",
+        "C"
+      ]
+    },
+    {
+      "category": "Core",
+      "items": [
+        "Data Structures & Algorithms",
+        "Problem Solving",
+        "OOPs"
+      ]
+    },
+    {
+      "category": "Databases",
+      "items": [
+        "MySQL",
+        "MongoDB"
+      ]
+    },
+    {
+      "category": "AI & Machine Learning",
+      "items": [
+        "Machine Learning",
+        "Deep Learning",
+        "TensorFlow",
+        "PyTorch",
+        "Scikit-learn",
+        "OpenCV",
+        "NumPy",
+        "Pandas",
+        "DeepFace"
+      ]
+    },
+    {
+      "category": "Tools & Version Control",
+      "items": [
+        "Git",
+        "GitHub",
+        "VS Code",
+        "Jupyter Notebook",
+        "Excel",
+        "Power BI"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Greater Noida Institute of Technology, affiliated to AKTU University",
+      "degree": "B.Tech in CSE(AI&ML)",
+      "location": "Greater Noida, UP",
+      "dates": "2023-2027 (Expected)",
+      "score": "CGPA: 8.83",
+      "details": "High-performing student with consistent academic excellence."
+    },
+    {
+      "institution": "St. Xavier's High School",
+      "degree": "Intermediate (Class XII)",
+      "location": "Hardoi, UP",
+      "dates": "2022",
+      "score": "92.3%",
+      "details": "CBSE Board"
+    }
+  ],
+  "certifications": [
+    "OOPS with C++, E & ICT Academy, IIT Kanpur (Joint initiative of MeitY & IIT Kanpur) (2025-26)",
+    "C Programming Training, E & ICT Academy, IIT Kanpur (Joint initiative of MeitY & IIT Kanpur) (2024-2025)",
+    "Azure Cloud Basics, Microsoft SkillUp (2025)",
+    "Databricks: Generative AI, Simplilearn (2025)",
+    "Databricks: Machine Learning, Simplilearn (2025)",
+    "Generative AI for Leaders, Udemy, MTF Institute of Management, Technology and Finance (2025)"
+  ],
+  "achievements": [
+    {
+      "title": "2nd Place - Internal Smart India Hackathon (SIH) Round",
+      "context": "Recognized for presenting an innovative solution and collaborating effectively within a team to address real-world challenges."
+    },
+    {
+      "title": "Academic Topper (2023-24)",
+      "context": "Secured 1st Position in First Year B.Tech (CSE-AIML) for outstanding academic excellence."
+    },
+    {
+      "title": "Academic Topper (2024-25)",
+      "context": "Secured 1st Position in Second Year B.Tech (CSE-AIML), demonstrating consistent academic performance and dedication."
+    }
+  ],
+  "extra": [
+    "Sports: Active participant in college Volleyball, Cricket, and Athletics, demonstrating teamwork, discipline, and competitive spirit."
+  ]
+}
