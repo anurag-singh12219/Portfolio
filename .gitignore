@@ -1,35 +1,30 @@
-node_modules/
-build/
-dist/
-coverage/
 .DS_Store
-## Node and build outputs
+
+# Node and build outputs
 node_modules/
 dist/
+build/
+coverage/
 
-## Environment / secrets
+# Environment / secrets
 .env
 .env.local
 .env.*
+!.env.example
 
-## Platform / editor
+# Platform / editor
 .vscode/
 .idea/
-.DS_Store
 
-## Deployment
+# Deployment
 .vercel/
 
-## Logs
+# Logs
 *.log
 
-## Package locks (optional)
+# Package locks (optional)
 package-lock.json
 yarn.lock
 
-## Personal files - do not commit private resume
+# Personal files - do not commit private resume
 /public/Anurag_Singh_Resume.pdf
-.env*
-!.env.example
-
-.vercel

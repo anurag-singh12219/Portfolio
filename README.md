@@ -1,4 +1,4 @@
-# Anurag Portfolio (Pure HTML/CSS/Bootstrap)
+# Anurag Portfolio
 
 This is a pure static portfolio website built with:
 
@@ -7,30 +7,37 @@ This is a pure static portfolio website built with:
 - Bootstrap 5 (CDN)
 - Vanilla JavaScript
 
-No React, no TypeScript, no Vite build step is required.
+## Run locally
 
-## Features
+Open `index.html` in a browser, or use a static server for the JSON fetch:
 
-- Fully responsive, mobile-first layout
-- Interactive splash loader and animated background
-- Expandable experience timeline
-- Smooth scrolling and section reveal animations
-- SEO basics (meta tags, Open Graph, Twitter cards, JSON-LD)
-- Cross-browser compatible for Chrome, Edge, and Firefox
+```powershell
+python -m http.server
+```
 
-## Run
+## Deploy to Vercel
 
-Open index.html in a browser.
+This repo is set up for direct Vercel deployment from the project root.
 
-For best local behavior (fetching JSON data), use a simple static server:
+1. Install the Vercel CLI:
 
-- VS Code Live Server extension, or
-- Python: `python -m http.server`
+```powershell
+npm install -g vercel
+```
 
-## Project Structure
+2. From this folder, run:
 
-- index.html
-- style.css
-- script.js
-- public/resume.json
-- public/Anurag_Singh_Resume.pdf
+```powershell
+vercel
+```
+
+3. Follow the prompts to create or link the Vercel project, then deploy.
+
+## Project files
+
+- `index.html`
+- `style.css`
+- `script.js`
+- `vercel.json`
+- `public/resume.json`
+- `public/favicon.svg`
