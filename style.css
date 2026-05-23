@@ -830,15 +830,20 @@ a {
 
   .hero-section {
     padding-top: 5.2rem;
-    padding-bottom: 6rem;
+    padding-bottom: 2.25rem;
+    min-height: auto;
   }
 
   .hero-section .container {
-    padding-bottom: 3.75rem;
+    padding-bottom: 1.25rem;
   }
 
   .hero-scroll {
-    bottom: 0.45rem;
+    position: static;
+    left: auto;
+    bottom: auto;
+    transform: none;
+    margin-top: 0.7rem;
   }
 
   .hero-pill {
@@ -864,7 +869,7 @@ a {
   }
 
   #experience.section-block {
-    padding-top: 2.75rem;
+    padding-top: 1.65rem;
   }
 
   .section-heading.centered {
@@ -955,6 +960,14 @@ a {
   .hero-pill {
     font-size: 0.66rem;
     padding: 0.35rem 0.78rem;
+  }
+
+  .hero-section {
+    padding-bottom: 1.8rem;
+  }
+
+  #experience.section-block {
+    padding-top: 1.25rem;
   }
 
   .project-card,
