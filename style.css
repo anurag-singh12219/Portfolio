@@ -32,6 +32,12 @@ body {
   overflow-x: hidden;
 }
 
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
 a {
   color: inherit;
 }
@@ -319,6 +325,7 @@ a {
   color: #ffffff;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 1rem;
 }
 
@@ -470,6 +477,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   gap: 0.8rem;
   margin-bottom: 0.8rem;
 }
@@ -501,6 +509,7 @@ a {
   padding: 0.35rem 0.6rem;
   border-radius: 999px;
   font-family: "JetBrains Mono", monospace;
+  max-width: 100%;
 }
 
 .timeline-bullets {
@@ -611,6 +620,7 @@ a {
 .skill-item {
   margin-bottom: 0.55rem;
   font-size: 0.93rem;
+  overflow-wrap: anywhere;
 }
 
 .project-date {
@@ -738,6 +748,14 @@ a {
     padding: 5.25rem 0;
   }
 
+  .hero-summary {
+    max-width: 100%;
+  }
+
+  .section-heading.centered {
+    margin-bottom: 2.75rem;
+  }
+
   .timeline::before {
     display: none;
   }
@@ -745,6 +763,14 @@ a {
   .timeline-item {
     grid-template-columns: 1fr;
     gap: 0.65rem;
+  }
+
+  .timeline-meta {
+    align-items: flex-start;
+  }
+
+  .timeline-dates {
+    white-space: normal;
   }
 
   .timeline-dot {
@@ -763,6 +789,12 @@ a {
 }
 
 @media (max-width: 575.98px) {
+  .container,
+  .container-sm {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   .hero-section {
     padding-top: 5.2rem;
     padding-bottom: 6rem;
@@ -778,6 +810,41 @@ a {
 
   .hero-pill {
     font-size: 0.7rem;
+    letter-spacing: 0.1em;
+  }
+
+  .hero-name {
+    font-size: clamp(2rem, 11.5vw, 2.8rem);
+    line-height: 1.1;
+  }
+
+  .hero-title {
+    font-size: clamp(1rem, 5.2vw, 1.35rem);
+  }
+
+  .hero-summary {
+    font-size: 0.95rem;
+  }
+
+  .section-block {
+    padding: 4.1rem 0;
+  }
+
+  .section-heading.centered {
+    margin-bottom: 2.2rem;
+  }
+
+  .section-heading h2 {
+    gap: 0.65rem;
+  }
+
+  .heading-line {
+    width: 2rem;
+  }
+
+  .divider-line {
+    width: 4.5rem;
+    margin-top: 0.95rem;
   }
 
   .project-card,
@@ -789,12 +856,74 @@ a {
     padding: 1.1rem;
   }
 
+  .timeline-meta {
+    flex-direction: column;
+    gap: 0.45rem;
+  }
+
+  .timeline-role {
+    font-size: 1.02rem;
+  }
+
+  .timeline-company,
+  .project-bullets li,
+  .cert-item,
+  .extra-item {
+    font-size: 0.88rem;
+  }
+
+  .timeline-dates {
+    font-size: 0.68rem;
+  }
+
+  .contact-btn {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .footer-social {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
   .section-heading p,
   .project-stack,
   .timeline-dates,
   .project-date,
   .site-footer p {
     font-size: 0.72rem;
+  }
+}
+
+@media (max-width: 399.98px) {
+  .container,
+  .container-sm {
+    padding-left: 0.85rem;
+    padding-right: 0.85rem;
+  }
+
+  .navbar-brand {
+    gap: 0.45rem;
+  }
+
+  .brand-logo img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .hero-pill {
+    font-size: 0.66rem;
+    padding: 0.35rem 0.78rem;
+  }
+
+  .project-card,
+  .skill-card,
+  .edu-card,
+  .cert-card,
+  .achievement-card,
+  .timeline-card,
+  .highlight-card {
+    padding: 0.95rem;
   }
 }
 
